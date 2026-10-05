@@ -21,6 +21,8 @@ PRODUCT_BRAND := motorola
 PRODUCT_MODEL := motorola edge 20 pro
 PRODUCT_MANUFACTURER := motorola
 
+PRODUCT_GMS_CLIENTID_BASE := android-motorola
+
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="pstar_retail-user 13 T1RAS33.55-15-16-5 d9def9-6b8134 release-keys" \
