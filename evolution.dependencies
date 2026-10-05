@@ -1,0 +1,13 @@
+[
+  {
+    "repository": "device_motorola_sm8250-common",
+    "target_path": "device/motorola/sm8250-common",
+    "remote": "evo-devices"
+  },
+  {
+    "repository": "Deivid-21s-Sources/proprietary_vendor_motorola_pstar",
+    "target_path": "vendor/motorola/pstar",
+    "remote": "github-non-los",
+    "branch": "lineage-24.0"
+  }
+]
