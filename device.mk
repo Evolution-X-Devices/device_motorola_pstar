@@ -18,8 +18,11 @@ TARGET_SCREEN_WIDTH := 1080
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResPstar \
+    FrameworksResDeviceRetcn \
     SystemUIResPstar \
-    SettingsProviderResPstar
+    SettingsProviderResPstar \
+    WifiResDevice \
+    WifiResDeviceRetcn
 
 # Audio
 PRODUCT_COPY_FILES += \

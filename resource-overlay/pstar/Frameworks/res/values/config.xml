@@ -179,6 +179,12 @@
     <!-- Indicates whether device has a power button fingerprint sensor. -->
     <bool name="config_is_powerbutton_fps">true</bool>
 
+    <!-- MMS user agent string -->
+    <string name="config_mms_user_agent" translatable="false">motorolaedge20pro</string>
+
+    <!-- MMS user agent prolfile url -->
+    <string name="config_mms_user_agent_profile_url" translatable="false">http://uaprof.motorola.com/phoneconfig/motov1/Profile/motov1.rdf</string>
+
     <array name="config_sfps_sensor_props_0">
         <item>local:4630947043778501761</item> <!--item>displayId</item-->
         <item>1080</item> <!--item>sensorLocationX</item-->
