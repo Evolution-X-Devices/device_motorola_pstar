@@ -1,0 +1,2 @@
+# SKU specific properties
+import /product/etc/props/carrier.${ro.boot.carrier}.prop

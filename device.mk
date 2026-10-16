@@ -45,6 +45,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.st
 
+# Properties
+PRODUCT_PACKAGES += \
+    carrier.retcn.prop
+
 # Shipping API level
 BOARD_SHIPPING_API_LEVEL := 30
 PRODUCT_SHIPPING_API_LEVEL := 30

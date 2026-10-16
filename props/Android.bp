@@ -1,0 +1,11 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "carrier.retcn.prop",
+    src: "carrier.retcn.prop",
+    sub_dir: "props",
+    product_specific: true,
+}
