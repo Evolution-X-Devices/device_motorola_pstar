@@ -35,6 +35,13 @@ blob_fixups: blob_fixups_user_type = {
         .binary_regex_replace(b'camera.mot.is.coming.cts', b'vendor.camera.coming.cts'),
     'vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so': blob_fixup()
         .sig_replace('13 0A 00 94', '1F 20 03 D5'),
+    (
+        'vendor/lib64/camera/components/com.mot.node.c2d.so',
+        'vendor/lib64/camera/components/com.vidhance.node.ica.so',
+        'vendor/lib64/camera/components/com.vidhance.node.processing.so',
+        'vendor/lib64/libmot_chi_desktop_helper.so',
+    ): blob_fixup()
+        .replace_needed('libui.so', 'libui-v34.so'),
 }
 
 module = ExtractUtilsModule(
