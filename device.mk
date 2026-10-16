@@ -26,7 +26,6 @@ PRODUCT_PACKAGES += \
     FrameworksResDeviceRetcn \
     LineagePlatformDevice \
     SystemUIResPstar \
-    SettingsProviderResPstar \
     WifiResDevice \
     WifiResDeviceRetcn
 
