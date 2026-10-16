@@ -189,6 +189,12 @@ vendor/firmware/stmicro-csot-fts3639-21120227-de141027-pstar.ftb:vendor_ramdisk/
 vendor/firmware/stmicro-visionox-fts3639-21072312-0009200c-pstar.ftb
 vendor/firmware/stmicro-visionox-fts3639-21072312-0009200c-pstar.ftb:vendor_ramdisk/lib/firmware/stmicro-visionox-fts3639-21072312-0009200c-pstar.ftb
 
+# IFAA - from pstar_retcn T1RAA33.39-11-11
+system_ext/app/IfaaService/IfaaService.apk
+vendor/bin/hw/vendor.zui.hardware.ifaa@1.0-service
+vendor/etc/init/vendor.zui.hardware.ifaa@1.0-service.rc
+vendor/lib64/vendor.zui.hardware.ifaa@1.0.so
+
 # NFC
 vendor/etc/libnfc-hal-st.conf
 vendor/etc/libnfc-nci-st.conf
@@ -198,6 +204,9 @@ vendor/etc/sensors/config/ak991x_0.json
 vendor/etc/sensors/config/lsm6dso_0.json
 vendor/etc/sensors/config/lsm6dso_0_16g.json
 vendor/etc/sensors/config/stk3a5x_0.json
+
+# Soter - from pstar_retcn T1RAA33.39-11-11
+system_ext/app/SoterService/SoterService.apk
 
 # Thermal
 vendor/etc/thermal-engine-pstar.conf
